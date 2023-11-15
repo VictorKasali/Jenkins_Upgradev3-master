@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                     // Clone the Git repository's main branch
-                    def gitRepoUrl = 'https://github.com/VictorKasali/devops_ops.git'
+                    def gitRepoUrl = 'https://github.com/VictorKasali/Jenkins_Upgradev3-master.git'
 
                     checkout([$class: 'GitSCM', 
                         branches: [[name: '*/main']], 
